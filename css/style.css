@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Palanquin+Dark:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Halant&family=Palanquin+Dark:wght@500&family=Rosario:wght@300&family=ZCOOL+XiaoWei&display=swap');
+
+body {
+    font-family: 'Fredoka One', cursive;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.black {
+    box-shadow: 0px -2px 10px -1px #1f1e1e;
+    border-bottom: 2px solid #efefef;
+}
+/*header section strat*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 600;
+    color: #3c3a3a;
+}
+
+a.navbar-brand {
+    font-size: 30px;
+}
+
+.collapse ul.navbar-nav li.nav-item a {
+    margin-left: 19px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #4d4f52;
+}
+
+.collapse ul.navbar-nav li.nav-item a:hover {
+    color: #fa5b0f;
+}
+
+.name_section {
+    padding-top: 255px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .name_section {
+        padding-top: 87px;
+    }
+}
+
+.name_section h3 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #FF9442;
+    text-transform: uppercase;
+}
+.my_social_iocn a i {
+    background: #fa5b0f;
+    padding: 11px 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 23px;
+    margin-left: 5px;
+    border: 3px solid #ffffff;
+}
+
+.my_social_iocn a i:hover {
+    background: white;
+    color: #fa5b0f;
+    border: 3px solid #fa5b0f;
+    transition: 1s;
+}
+.name_section h5 {
+    font-size: 22px;
+    letter-spacing: 10px;
+    color: #fa5b0f;
+}
+
+.name_section h1 {
+    text-transform: uppercase;
+    color: #fa5b0f;
+}
+
+a.name_section_btn {
+    background: #fa5b0f;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    border: 4px solid white;
+}
+
+a.name_section_btn:hover {
+    background: white;
+    color: #fa5b0f;
+    border: 4px solid #fa5b0f;
+    transition: 1s;
+}
+
+.name_img {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1160px) {
+    .collapse ul.navbar-nav li.nav-item a {
+        font-size: 13px;
+    }
+}
+
+/*header section end*/
+
+/*about section strat*/
+
+.about_intro_title h5 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #FF9442;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about_intro_title h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+.about_box h1 {
+    color: #fa5b0f;
+}
+
+.about_box span.about_icon {
+    color: #fa5b0f;
+    font-size: 20px;
+}
+
+.my_interests h4 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+.about_box p {
+    line-height: 30px;
+}
+
+.my_interests_box {
+    background: #d8d3d3;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.my_interests_box p {
+    font-size: 25px;
+}
+
+.my_interests_box .icon_box i {
+    font-size: 67px;
+    color: #fa5b0f;
+}
+
+.my_interests_left {
+    position: absolute;
+    background: #d8d3d3;
+    height: 123px;
+    width: 110px;
+    border-radius: 48px;
+    left: -22px;
+    z-index: -555;
+}
+
+.my_interests_right {
+    position: absolute;
+    background: #d8d3d3;
+    height: 123px;
+    width: 110px;
+    border-radius: 48px;
+    right: -20px;
+    z-index: -555;
+    top: 19px;
+}
+
+.my_interests_box:hover .my_interests_left {
+    background: #fa5b0f;
+}
+
+.my_interests_box:hover .my_interests_right {
+    background: #fa5b0f;
+}
+
+.my_interests_box:hover {
+    background: #fa5b0f;
+}
+
+.my_interests_box:hover .icon_box i {
+    color: white;
+}
+
+.my_interests_box:hover p {
+    color: white;
+}
+
+/*about section end*/
+
+/* My Expertise section strat*/
+.my_expertise_title h5 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9448;
+    text-align: center;
+}
+
+.my_expertise_title h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+/*progress bar section strat*/
+
+.single-progressbar {
+    margin-bottom: 30px;
+}
+
+.single-progressbar h4 {
+    font-size: 16px;
+}
+
+/*progress bar section end*/
+
+/* My Expertise section end*/
+
+/*My qualifiction section strat*/
+
+.my_Qualification h5 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9453;
+}
+
+.my_Qualification h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+/* .qualifiction_title {
+    text-align: center;
+} */
+
+.qualifiction_title span i {
+    color: #fa5b0f;
+}
+
+.qualifiction_title h4 {
+    color: #fa5b0f;
+}
+
+.qualifiction_after:after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #ff9453;
+    top: 61px;
+    left: 17px;
+}
+
+.qualifiction_after:before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #ff9453;
+    left: 23px;
+    top: 67px;
+}
+
+.qualifiction_line {
+    content: "";
+    position: absolute;
+    background: #ff9453;
+    height: 59px;
+    width: 3px;
+    top: 82px;
+    left: 27px;
+}
+
+
+
+.icon::after {
+    content: "";
+    background: #fa5b0f;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 6px;
+    left: 16px;
+}
+
+.icon::before {
+    position: absolute;
+    content: "";
+    left: auto;
+    top: auto;
+    width: 4px;
+    height: 59px;
+    background-color: #fa5b0f;
+    margin-top: 23px;
+    margin-left: 5px;
+}
+
+.work-box-title {
+    padding-left: 57px;
+    padding-bottom: 45px;
+}
+
+.work-box-title small {
+    background: rgb(46, 204, 113);
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.border-icon {
+    position: absolute;
+    border: 3px solid #fa5b0f;
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    left: 10px;
+}
+
+/*My qualifiction section end*/
+
+/*services section strat*/
+.my_services_title h5 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9453;
+}
+
+.my_services_title h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+.services-box h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 17px;
+    color: #fa5b0f;
+}
+
+.services-box {
+    background: #d8d3d3;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    margin: 15px;
+    margin-bottom: 60px;
+}
+
+.services-box-left {
+    background: #d8d3d3;
+    position: absolute;
+    left: -22px;
+    width: 140px;
+    height: 140px;
+    border-radius: 36%;
+    z-index: -4444444;
+}
+
+.services-box-right {
+    background: #d8d3d3;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 36%;
+    z-index: -4444444;
+    right: -19px;
+    top: 16px;
+}
+
+.services-box .services_icon i {
+    font-size: 45px;
+}
+
+.services-box .services_icon {
+    position: absolute;
+    top: -47px;
+    left: 113px;
+}
+
+.services-box:hover .services_icon i {
+    background: #fa5b0f;
+    color: white;
+}
+
+.services-box .services_icon i {
+    background: #d8d3d3;
+    padding: 21px;
+    border-radius: 50%;
+    width: 85px;
+    color: #fa5b0f;
+}
+
+.services-box:hover h1 {
+    color: white;
+}
+
+.services-box:hover p {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .services-box .services_icon {
+        position: absolute;
+        top: -48px;
+        left: 98px;
+    }
+
+    span.myservicespara {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+
+    span.myservicespapratow {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .services-box .services_icon {
+        position: absolute;
+        top: -48px;
+        left: 100px;
+    }
+
+    span.myservicesone {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services-box {
+        margin-bottom: 50px;
+    }
+
+    .services-box .services_icon {
+        position: absolute;
+        top: -48px;
+        left: 177px;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+
+    .services-box .services_icon {
+        position: absolute;
+        top: -48px;
+        left: 148px;
+    }
+}
+
+.services-box:hover .services-box-left {
+    background: #fa5b0f;
+}
+
+.services-box:hover {
+    background: #fa5b0f;
+}
+
+.services-box:hover .services-box-right {
+    background: #fa5b0f;
+
+}
+
+/*services section end*/
+
+/*portfolio section strat*/
+.portfolio_title h5 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9453;
+}
+
+.portfolio_title h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+.mb-30 {
+    padding-bottom: 20px;
+}
+
+button.btn.active {
+    color: #fa5b0f;
+}
+
+.porfilo-menu {
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/*portfolio section end*/
+/*client slider section strat*/
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.client_title h5 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9453;
+}
+
+.client_title h1 {
+    color: #fa5b0f;
+}
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD;
+    border-radius: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #fa5b0f !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #fa5b0f !important;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.item {
+    display: none;
+    background: #d8d3d3;
+    border-radius: 6px;
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
+}
+
+/*client slider section end*/
+/*contact section strat*/
+.contain_title h5 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ff9453;
+}
+
+.contain_title h1 {
+    text-align: center;
+    color: #fa5b0f;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fa5b0f;
+    outline: 0;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: #fa5b0f !important;
+    font-size: 13px;
+}
+
+button.contact_box_btn {
+    background: #fa5b0f;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+}
+
+button.contact_box_btn:hover {
+    background: white;
+    color: #fa5b0f;
+    border: 2px solid #fa5b0f;
+    transition: 1s;
+}
+
+.contact_box_iocn i {
+    font-size: 22px;
+    background: #fa5b0f;
+    padding: 12px 14px;
+    border-radius: 50px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-box {
+        margin-top: 50px;
+    }
+}
+
+.client_Revice_icon i {
+    color: #fa5b0f;
+}
+
+p.text-center a {
+    text-decoration: none;
+    color: #fa5b0f;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fa5b0f;
+    color: white;
+    cursor: pointer;
+    padding: 9px 16px;
+    border-radius: 37px;
+}
+
+
+/*contact section end*/
